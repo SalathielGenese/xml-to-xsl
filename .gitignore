@@ -1,0 +1,5 @@
+/node_modules
+*.html
+*.log
+
+!/base.html
