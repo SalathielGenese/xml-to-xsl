@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "yarn dev:start",
+    "start": "node src/index.js",
+    "dev:start": "yarn run nodemon --exec \"yarn start\""
+  },
   "nodemonConfig": {
     "ignore": [ "node_modules/*", ".git/*" ],
     "ext": "js,json,yml,yaml,xsl,xml",
