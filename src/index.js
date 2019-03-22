@@ -10,7 +10,7 @@ const { promises: fs } = require( 'fs' );
     );
 
     console.log( html );
-})();
+})().catch( error => console.error( error ) );
 
 
 async function getContent( path )
