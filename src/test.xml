@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<works>
+    <work>
+        <type>Wood Work</type>
+        <a>images/portfolio-1.jpg</a>
+        <imagePath>images/portfolio-1.jpg</imagePath>
+        <description>Small Portfolio Detail Here</description>
+    </work>
+    <work>
+        <type>Creative Work</type>
+        <sub-type>Portfolio Designs</sub-type>
+        <description>Curabitur eifend,</description>
+    </work>
+    <work>
+        <type>Wood Work</type>
+        <a>
+            <href>https://www.youtube.com/watch?v=_sI_Ps7JSEk&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0</href>
+        </a>
+        <imagePath>images/portfolio-1.jpg</imagePath>
+        <description>Small Portfolio Detail Here</description>
+    </work>
+    <work>
+        <type>Wood Work</type>
+        <a>
+            <text>images/portfolio-3.jpg</text>
+        </a>
+        <imagePath>images/portfolio-3.jpg</imagePath>
+        <description>Small Portfolio Detail Here</description>
+    </work>
+    <work>
+        <type>Wood Work</type>
+        <a>
+            <href>images/portfolio-4.jpg</href>
+        </a>
+        <imagePath>images/portfolio-4.jpg</imagePath>
+        <description>Small Portfolio Detail Here</description>
+    </work>
+    <work>
+        <a>
+            <text>View All Work</text>
+            <href>gallery-detail.html</href>
+        </a>
+        <description>
+            <text>Weâ€:tm:ve Completed More Than</text>
+            <counter>682</counter>
+            <text>projects for our amazing clients,</text>
+        </description>
+    </work>
+</works>
