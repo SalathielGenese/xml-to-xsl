@@ -2,5 +2,8 @@
   "name": "xml-to-xsl",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "xslt-processor": "^0.11.5"
+  }
 }
