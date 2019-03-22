@@ -6,17 +6,11 @@
   "scripts": {
     "dev": "yarn dev:start",
     "start": "node src/index.js",
-    "dev:start": "yarn run nodemon --exec \"yarn start\""
-  },
-  "nodemonConfig": {
-    "ignore": [ "node_modules/*", ".git/*" ],
-    "ext": "js,json,yml,yaml,xsl,xml",
-    "delay": "500"
+    "dev:start": "yarn run chokidar \"src/**/*\" --ignore \"src/**/*.html\" --command \"yarn start\""
   },
   "dependencies": {
+    "chokidar-cli": "^1.2.2",
     "xslt-processor": "^0.11.5"
   },
-  "devDependencies": {
-    "nodemon": "^1.18.10"
-  }
+  "devDependencies": {}
 }
