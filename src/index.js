@@ -1,5 +1,6 @@
 const { xsltProcess: process, xmlParse: parse } = require( 'xslt-processor' );
 const { promises: fs } = require( 'fs' );
+const pretty = require('pretty');
 
 
 ( async () =>
@@ -9,7 +10,7 @@ const { promises: fs } = require( 'fs' );
         parse( await getContent( `${ __dirname }/test.xsl` ) ),
     );
 
-    console.log( html );
+    console.log( pretty( html ) );
 })().catch( error => console.error( error ) );
 
 
